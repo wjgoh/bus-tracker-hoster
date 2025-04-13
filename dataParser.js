@@ -3,12 +3,15 @@ const GtfsRealtimeBindings = require("gtfs-realtime-bindings");
 const { insertVehiclePositions } = require("./database");
 const { logger } = require("./logger");
 
+const API_URL =
+  "https://api.data.gov.my/gtfs-realtime/vehicle-position/prasarana?category=rapid-bus-mrtfeeder";
+
 async function fetchAndSaveData() {
   try {
     logger.info("Fetching data from API...");
 
     // Fetch data from the API as binary data
-    const response = await axios.get(process.env.API_URL, {
+    const response = await axios.get(API_URL, {
       responseType: "arraybuffer", // Important! Get the data as binary
       timeout: 10000, // 10 seconds timeout
     });
