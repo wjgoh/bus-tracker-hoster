@@ -2,6 +2,7 @@ require("dotenv").config();
 const { fetchAndSaveData } = require("./dataParser");
 const { logger } = require("./logger");
 const { initDatabase } = require("./database");
+const port = process.env.PORT || 4000;
 
 // Interval in milliseconds (30 seconds = 30000ms)
 const INTERVAL = 30000;
