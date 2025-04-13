@@ -1,0 +1,16 @@
+{
+  "name": "bus-tracker",
+  "version": "1.0.0",
+  "description": "Parser for bus tracking data from government API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.2",
+    "dotenv": "^16.3.1",
+    "gtfs-realtime-bindings": "^1.1.1",
+    "pg": "^8.11.3",
+    "winston": "^3.11.0"
+  }
+}

@@ -1,0 +1,346 @@
+2025-04-13T13:19:19.077Z info: Creating vehicle_positions table if it doesn't exist
+2025-04-13T13:19:19.109Z info: Database initialized successfully
+2025-04-13T13:19:19.109Z info: Fetching data from API...
+2025-04-13T13:19:19.663Z info: Parsed 59 vehicle positions from GTFS data
+2025-04-13T13:19:19.711Z error: Error inserting multiple vehicle positions: column "bearing" of relation "vehicle_positions" does not exist
+2025-04-13T13:21:54.796Z info: Creating vehicle_positions table if it doesn't exist
+2025-04-13T13:21:54.815Z info: Database initialized successfully
+2025-04-13T13:21:54.815Z info: Fetching data from API...
+2025-04-13T13:21:55.145Z info: Parsed 57 vehicle positions from GTFS data
+2025-04-13T13:21:55.206Z error: Error inserting multiple vehicle positions: column "bearing" of relation "vehicle_positions" does not exist
+2025-04-13T13:22:04.441Z info: Creating vehicle_positions table if it doesn't exist
+2025-04-13T13:22:04.484Z info: Database initialized successfully
+2025-04-13T13:22:04.485Z info: Fetching data from API...
+2025-04-13T13:22:04.770Z info: Parsed 56 vehicle positions from GTFS data
+2025-04-13T13:22:04.828Z error: Error inserting multiple vehicle positions: date/time field value out of range: "1744550497"
+2025-04-13T13:24:09.144Z info: Creating vehicle_positions table if it doesn't exist
+2025-04-13T13:24:09.166Z info: Database initialized successfully
+2025-04-13T13:24:09.167Z info: Fetching data from API...
+2025-04-13T13:24:09.576Z info: Parsed 51 vehicle positions from GTFS data
+2025-04-13T13:24:09.653Z error: Error inserting multiple vehicle positions: date/time field value out of range: "1744550637"
+2025-04-13T13:24:56.649Z info: Creating vehicle_positions table if it doesn't exist
+2025-04-13T13:24:56.679Z info: Database initialized successfully
+2025-04-13T13:24:56.680Z info: Fetching data from API...
+2025-04-13T13:24:57.074Z info: Parsed 50 vehicle positions from GTFS data
+2025-04-13T13:24:57.132Z error: Error inserting multiple vehicle positions: date/time field value out of range: "1744550646"
+2025-04-13T13:25:03.554Z info: Creating vehicle_positions table if it doesn't exist
+2025-04-13T13:25:03.584Z info: Database initialized successfully
+2025-04-13T13:25:03.585Z info: Fetching data from API...
+2025-04-13T13:25:04.349Z info: Parsed 50 vehicle positions from GTFS data
+2025-04-13T13:25:06.159Z info: Inserted 50 vehicle position records
+2025-04-13T13:25:06.159Z info: Successfully processed 50 vehicle positions
+2025-04-13T13:25:06.159Z info: Parser started. Fetching data every 30 seconds
+2025-04-13T13:25:36.175Z info: Fetching data from API...
+2025-04-13T13:25:36.469Z info: Parsed 50 vehicle positions from GTFS data
+2025-04-13T13:25:36.647Z error: Error inserting multiple vehicle positions: duplicate key value violates unique constraint "vehicle_positions_vehicle_id_key"
+2025-04-13T13:25:36.648Z error: Error fetching or processing data: duplicate key value violates unique constraint "vehicle_positions_vehicle_id_key"
+2025-04-13T13:25:36.649Z error: Error in scheduled data fetch: duplicate key value violates unique constraint "vehicle_positions_vehicle_id_key"
+2025-04-13T13:26:06.184Z info: Fetching data from API...
+2025-04-13T13:26:06.522Z info: Parsed 52 vehicle positions from GTFS data
+2025-04-13T13:26:06.698Z error: Error inserting multiple vehicle positions: duplicate key value violates unique constraint "vehicle_positions_vehicle_id_key"
+2025-04-13T13:26:06.698Z error: Error fetching or processing data: duplicate key value violates unique constraint "vehicle_positions_vehicle_id_key"
+2025-04-13T13:26:06.698Z error: Error in scheduled data fetch: duplicate key value violates unique constraint "vehicle_positions_vehicle_id_key"
+2025-04-13T13:26:36.189Z info: Fetching data from API...
+2025-04-13T13:26:36.515Z info: Parsed 50 vehicle positions from GTFS data
+2025-04-13T13:26:36.727Z error: Error inserting multiple vehicle positions: duplicate key value violates unique constraint "vehicle_positions_vehicle_id_key"
+2025-04-13T13:26:36.728Z error: Error fetching or processing data: duplicate key value violates unique constraint "vehicle_positions_vehicle_id_key"
+2025-04-13T13:26:36.729Z error: Error in scheduled data fetch: duplicate key value violates unique constraint "vehicle_positions_vehicle_id_key"
+2025-04-13T13:27:06.201Z info: Fetching data from API...
+2025-04-13T13:27:07.789Z info: Parsed 54 vehicle positions from GTFS data
+2025-04-13T13:27:08.309Z error: Error inserting multiple vehicle positions: duplicate key value violates unique constraint "vehicle_positions_vehicle_id_key"
+2025-04-13T13:27:08.309Z error: Error fetching or processing data: duplicate key value violates unique constraint "vehicle_positions_vehicle_id_key"
+2025-04-13T13:27:08.309Z error: Error in scheduled data fetch: duplicate key value violates unique constraint "vehicle_positions_vehicle_id_key"
+2025-04-13T13:27:36.216Z info: Fetching data from API...
+2025-04-13T13:27:37.037Z info: Parsed 62 vehicle positions from GTFS data
+2025-04-13T13:27:37.186Z error: Error inserting multiple vehicle positions: duplicate key value violates unique constraint "vehicle_positions_vehicle_id_key"
+2025-04-13T13:27:37.186Z error: Error fetching or processing data: duplicate key value violates unique constraint "vehicle_positions_vehicle_id_key"
+2025-04-13T13:27:37.187Z error: Error in scheduled data fetch: duplicate key value violates unique constraint "vehicle_positions_vehicle_id_key"
+2025-04-13T13:27:48.402Z info: Creating vehicle_positions table if it doesn't exist
+2025-04-13T13:27:48.422Z info: Database initialized successfully
+2025-04-13T13:27:48.423Z info: Fetching data from API...
+2025-04-13T13:27:48.670Z info: Parsed 62 vehicle positions from GTFS data
+2025-04-13T13:27:50.245Z info: Updated/inserted 62 vehicle position records
+2025-04-13T13:27:50.246Z info: Successfully processed 62 vehicle positions
+2025-04-13T13:27:50.247Z info: Parser started. Fetching data every 30 seconds
+2025-04-13T13:28:20.257Z info: Fetching data from API...
+2025-04-13T13:28:20.607Z info: Parsed 67 vehicle positions from GTFS data
+2025-04-13T13:28:22.174Z info: Updated/inserted 67 vehicle position records
+2025-04-13T13:28:22.175Z info: Successfully processed 67 vehicle positions
+2025-04-13T13:28:50.269Z info: Fetching data from API...
+2025-04-13T13:28:50.592Z info: Parsed 72 vehicle positions from GTFS data
+2025-04-13T13:28:52.113Z info: Updated/inserted 72 vehicle position records
+2025-04-13T13:28:52.114Z info: Successfully processed 72 vehicle positions
+2025-04-13T13:29:20.333Z info: Creating vehicle_positions table if it doesn't exist
+2025-04-13T13:29:20.363Z info: Database initialized successfully
+2025-04-13T13:29:20.364Z info: Fetching data from API...
+2025-04-13T13:29:20.762Z info: Parsed 78 vehicle positions from GTFS data
+2025-04-13T13:29:22.677Z info: Updated/inserted 78 vehicle position records
+2025-04-13T13:29:22.678Z info: Successfully processed 78 vehicle positions
+2025-04-13T13:29:22.678Z info: Parser started. Fetching data every 30 seconds
+2025-04-13T13:29:52.690Z info: Fetching data from API...
+2025-04-13T13:29:52.907Z info: Parsed 84 vehicle positions from GTFS data
+2025-04-13T13:29:54.676Z info: Updated/inserted 84 vehicle position records
+2025-04-13T13:29:54.677Z info: Successfully processed 84 vehicle positions
+2025-04-13T13:30:22.691Z info: Fetching data from API...
+2025-04-13T13:30:22.916Z info: Parsed 87 vehicle positions from GTFS data
+2025-04-13T13:30:24.833Z info: Updated/inserted 87 vehicle position records
+2025-04-13T13:30:24.834Z info: Successfully processed 87 vehicle positions
+2025-04-13T13:30:35.522Z info: Creating vehicle_positions table if it doesn't exist
+2025-04-13T13:30:35.553Z info: Database initialized successfully
+2025-04-13T13:30:35.555Z info: Fetching data from API...
+2025-04-13T13:30:35.916Z info: Parsed 87 vehicle positions from GTFS data
+2025-04-13T13:30:36.054Z info: Marked 97 vehicles as inactive
+2025-04-13T13:30:38.012Z info: Updated/inserted 87 vehicle position records
+2025-04-13T13:30:38.013Z info: Successfully processed 87 vehicle positions
+2025-04-13T13:30:38.013Z info: Parser started. Fetching data every 30 seconds
+2025-04-13T13:31:08.028Z info: Fetching data from API...
+2025-04-13T13:31:08.259Z info: Parsed 88 vehicle positions from GTFS data
+2025-04-13T13:31:08.540Z info: Marked 87 vehicles as inactive
+2025-04-13T13:31:10.324Z info: Updated/inserted 88 vehicle position records
+2025-04-13T13:31:10.324Z info: Successfully processed 88 vehicle positions
+2025-04-13T13:31:38.043Z info: Fetching data from API...
+2025-04-13T13:31:38.634Z info: Parsed 86 vehicle positions from GTFS data
+2025-04-13T13:31:38.940Z info: Marked 88 vehicles as inactive
+2025-04-13T13:31:40.834Z info: Updated/inserted 86 vehicle position records
+2025-04-13T13:31:40.835Z info: Successfully processed 86 vehicle positions
+2025-04-13T13:32:37.152Z info: Creating vehicle_positions table if it doesn't exist
+2025-04-13T13:32:37.170Z info: Database initialized successfully
+2025-04-13T13:32:37.170Z info: Fetching data from API...
+2025-04-13T13:32:37.485Z info: Parsed 87 vehicle positions from GTFS data
+2025-04-13T13:32:37.659Z info: Marked 86 vehicles as inactive
+2025-04-13T13:32:39.679Z info: Updated/inserted 87 vehicle position records
+2025-04-13T13:32:39.679Z info: Successfully processed 87 vehicle positions
+2025-04-13T13:32:39.680Z info: Parser started. Fetching data every 30 seconds
+2025-04-13T13:33:09.688Z info: Fetching data from API...
+2025-04-13T13:33:10.165Z info: Parsed 86 vehicle positions from GTFS data
+2025-04-13T13:33:10.455Z info: Marked 87 vehicles as inactive
+2025-04-13T13:33:12.649Z info: Updated/inserted 86 vehicle position records
+2025-04-13T13:33:12.649Z info: Successfully processed 86 vehicle positions
+2025-04-13T13:33:39.694Z info: Fetching data from API...
+2025-04-13T13:33:39.927Z info: Parsed 86 vehicle positions from GTFS data
+2025-04-13T13:33:40.167Z info: Marked 86 vehicles as inactive
+2025-04-13T13:33:40.451Z error: Error inserting multiple vehicle positions: null value in column "latitude" of relation "vehicle_positions" violates not-null constraint
+2025-04-13T13:33:40.451Z error: Error fetching or processing data: null value in column "latitude" of relation "vehicle_positions" violates not-null constraint
+2025-04-13T13:33:40.452Z error: Error in scheduled data fetch: null value in column "latitude" of relation "vehicle_positions" violates not-null constraint
+2025-04-13T13:34:09.707Z info: Fetching data from API...
+2025-04-13T13:34:10.102Z info: Parsed 85 vehicle positions from GTFS data
+2025-04-13T13:34:10.369Z info: Marked 0 vehicles as inactive
+2025-04-13T13:34:12.349Z info: Updated/inserted 85 vehicle position records
+2025-04-13T13:34:12.350Z info: Successfully processed 85 vehicle positions
+2025-04-13T13:34:39.715Z info: Fetching data from API...
+2025-04-13T13:34:40.048Z info: Parsed 84 vehicle positions from GTFS data
+2025-04-13T13:34:40.623Z info: Marked 85 vehicles as inactive
+2025-04-13T13:34:42.418Z info: Updated/inserted 84 vehicle position records
+2025-04-13T13:34:42.418Z info: Successfully processed 84 vehicle positions
+2025-04-13T13:35:09.719Z info: Fetching data from API...
+2025-04-13T13:35:10.006Z info: Parsed 83 vehicle positions from GTFS data
+2025-04-13T13:35:11.104Z info: Marked 84 vehicles as inactive
+2025-04-13T13:35:13.662Z info: Updated/inserted 83 vehicle position records
+2025-04-13T13:35:13.663Z info: Successfully processed 83 vehicle positions
+2025-04-13T13:35:39.724Z info: Fetching data from API...
+2025-04-13T13:35:40.405Z info: Parsed 82 vehicle positions from GTFS data
+2025-04-13T13:35:40.699Z info: Marked 83 vehicles as inactive
+2025-04-13T13:35:42.327Z info: Updated/inserted 82 vehicle position records
+2025-04-13T13:35:42.328Z info: Successfully processed 82 vehicle positions
+2025-04-13T13:36:09.726Z info: Fetching data from API...
+2025-04-13T13:36:10.399Z info: Parsed 81 vehicle positions from GTFS data
+2025-04-13T13:36:10.828Z info: Marked 82 vehicles as inactive
+2025-04-13T13:36:13.356Z info: Updated/inserted 81 vehicle position records
+2025-04-13T13:36:13.356Z info: Successfully processed 81 vehicle positions
+2025-04-13T13:36:39.738Z info: Fetching data from API...
+2025-04-13T13:36:40.188Z info: Parsed 79 vehicle positions from GTFS data
+2025-04-13T13:36:40.525Z info: Marked 81 vehicles as inactive
+2025-04-13T13:36:42.296Z info: Updated/inserted 79 vehicle position records
+2025-04-13T13:36:42.296Z info: Successfully processed 79 vehicle positions
+2025-04-13T13:37:09.745Z info: Fetching data from API...
+2025-04-13T13:37:10.590Z info: Parsed 79 vehicle positions from GTFS data
+2025-04-13T13:37:10.869Z info: Marked 79 vehicles as inactive
+2025-04-13T13:37:12.917Z info: Updated/inserted 79 vehicle position records
+2025-04-13T13:37:12.918Z info: Successfully processed 79 vehicle positions
+2025-04-13T13:37:39.756Z info: Fetching data from API...
+2025-04-13T13:37:40.365Z info: Parsed 80 vehicle positions from GTFS data
+2025-04-13T13:37:40.828Z info: Marked 79 vehicles as inactive
+2025-04-13T13:37:43.665Z info: Updated/inserted 80 vehicle position records
+2025-04-13T13:37:43.665Z info: Successfully processed 80 vehicle positions
+2025-04-13T13:38:09.757Z info: Fetching data from API...
+2025-04-13T13:38:11.945Z info: Parsed 80 vehicle positions from GTFS data
+2025-04-13T13:38:14.354Z info: Marked 80 vehicles as inactive
+2025-04-13T13:38:18.297Z error: Error inserting multiple vehicle positions: null value in column "latitude" of relation "vehicle_positions" violates not-null constraint
+2025-04-13T13:38:18.298Z error: Error fetching or processing data: null value in column "latitude" of relation "vehicle_positions" violates not-null constraint
+2025-04-13T13:38:18.298Z error: Error in scheduled data fetch: null value in column "latitude" of relation "vehicle_positions" violates not-null constraint
+2025-04-13T13:38:39.757Z info: Fetching data from API...
+2025-04-13T13:38:40.541Z info: Parsed 83 vehicle positions from GTFS data
+2025-04-13T13:38:41.359Z info: Marked 0 vehicles as inactive
+2025-04-13T13:38:43.736Z info: Updated/inserted 83 vehicle position records
+2025-04-13T13:38:43.736Z info: Successfully processed 83 vehicle positions
+2025-04-13T13:39:09.763Z info: Fetching data from API...
+2025-04-13T13:39:09.998Z info: Parsed 82 vehicle positions from GTFS data
+2025-04-13T13:39:10.249Z info: Marked 83 vehicles as inactive
+2025-04-13T13:39:11.872Z info: Updated/inserted 82 vehicle position records
+2025-04-13T13:39:11.872Z info: Successfully processed 82 vehicle positions
+2025-04-13T13:39:39.770Z info: Fetching data from API...
+2025-04-13T13:39:40.141Z info: Parsed 82 vehicle positions from GTFS data
+2025-04-13T13:39:40.511Z info: Marked 82 vehicles as inactive
+2025-04-13T13:39:42.317Z info: Updated/inserted 82 vehicle position records
+2025-04-13T13:39:42.318Z info: Successfully processed 82 vehicle positions
+2025-04-13T13:40:09.782Z info: Fetching data from API...
+2025-04-13T13:40:09.975Z info: Parsed 83 vehicle positions from GTFS data
+2025-04-13T13:40:10.246Z info: Marked 82 vehicles as inactive
+2025-04-13T13:40:11.902Z info: Updated/inserted 83 vehicle position records
+2025-04-13T13:40:11.902Z info: Successfully processed 83 vehicle positions
+2025-04-13T13:40:39.791Z info: Fetching data from API...
+2025-04-13T13:40:40.599Z info: Parsed 83 vehicle positions from GTFS data
+2025-04-13T13:40:40.889Z info: Marked 83 vehicles as inactive
+2025-04-13T13:40:42.617Z info: Updated/inserted 83 vehicle position records
+2025-04-13T13:40:42.617Z info: Successfully processed 83 vehicle positions
+2025-04-13T13:41:13.691Z info: Creating vehicle_positions table if it doesn't exist
+2025-04-13T13:41:13.714Z info: Database initialized successfully
+2025-04-13T13:41:13.715Z info: Fetching data from API...
+2025-04-13T13:41:14.101Z info: Parsed 81 vehicle positions from GTFS data
+2025-04-13T13:41:14.244Z info: Marked 87 vehicles as inactive
+2025-04-13T13:41:16.045Z info: Updated/inserted 81 vehicle position records
+2025-04-13T13:41:16.045Z info: Successfully processed 81 vehicle positions
+2025-04-13T13:41:16.046Z info: Parser started. Fetching data every 30 seconds
+2025-04-13T13:41:46.048Z info: Fetching data from API...
+2025-04-13T13:41:46.400Z info: Parsed 80 vehicle positions from GTFS data
+2025-04-13T13:41:46.661Z info: Marked 81 vehicles as inactive
+2025-04-13T13:41:48.435Z info: Updated/inserted 80 vehicle position records
+2025-04-13T13:41:48.436Z info: Successfully processed 80 vehicle positions
+2025-04-13T13:42:16.053Z info: Fetching data from API...
+2025-04-13T13:42:16.637Z info: Parsed 80 vehicle positions from GTFS data
+2025-04-13T13:42:16.882Z info: Marked 80 vehicles as inactive
+2025-04-13T13:42:18.713Z info: Updated/inserted 80 vehicle position records
+2025-04-13T13:42:18.714Z info: Successfully processed 80 vehicle positions
+2025-04-13T13:42:46.062Z info: Fetching data from API...
+2025-04-13T13:42:46.557Z info: Parsed 80 vehicle positions from GTFS data
+2025-04-13T13:42:46.841Z info: Marked 80 vehicles as inactive
+2025-04-13T13:42:48.185Z error: Error inserting multiple vehicle positions: null value in column "latitude" of relation "vehicle_positions" violates not-null constraint
+2025-04-13T13:42:48.185Z error: Error fetching or processing data: null value in column "latitude" of relation "vehicle_positions" violates not-null constraint
+2025-04-13T13:42:48.185Z error: Error in scheduled data fetch: null value in column "latitude" of relation "vehicle_positions" violates not-null constraint
+2025-04-13T13:43:16.063Z info: Fetching data from API...
+2025-04-13T13:43:16.378Z info: Parsed 80 vehicle positions from GTFS data
+2025-04-13T13:43:16.653Z info: Marked 0 vehicles as inactive
+2025-04-13T13:43:18.690Z info: Updated/inserted 80 vehicle position records
+2025-04-13T13:43:18.691Z info: Successfully processed 80 vehicle positions
+2025-04-13T13:43:46.067Z info: Fetching data from API...
+2025-04-13T13:43:46.639Z info: Parsed 80 vehicle positions from GTFS data
+2025-04-13T13:43:46.968Z info: Marked 80 vehicles as inactive
+2025-04-13T13:43:48.457Z error: Error inserting multiple vehicle positions: null value in column "latitude" of relation "vehicle_positions" violates not-null constraint
+2025-04-13T13:43:48.458Z error: Error fetching or processing data: null value in column "latitude" of relation "vehicle_positions" violates not-null constraint
+2025-04-13T13:43:48.459Z error: Error in scheduled data fetch: null value in column "latitude" of relation "vehicle_positions" violates not-null constraint
+2025-04-13T13:44:16.082Z info: Fetching data from API...
+2025-04-13T13:44:16.426Z info: Parsed 80 vehicle positions from GTFS data
+2025-04-13T13:44:16.851Z info: Marked 0 vehicles as inactive
+2025-04-13T13:44:17.772Z error: Error inserting multiple vehicle positions: null value in column "latitude" of relation "vehicle_positions" violates not-null constraint
+2025-04-13T13:44:17.772Z error: Error fetching or processing data: null value in column "latitude" of relation "vehicle_positions" violates not-null constraint
+2025-04-13T13:44:17.772Z error: Error in scheduled data fetch: null value in column "latitude" of relation "vehicle_positions" violates not-null constraint
+2025-04-13T13:44:46.094Z info: Fetching data from API...
+2025-04-13T13:44:46.607Z info: Parsed 81 vehicle positions from GTFS data
+2025-04-13T13:44:46.850Z info: Marked 0 vehicles as inactive
+2025-04-13T13:44:48.546Z info: Updated/inserted 81 vehicle position records
+2025-04-13T13:44:48.546Z info: Successfully processed 81 vehicle positions
+2025-04-13T13:45:16.098Z info: Fetching data from API...
+2025-04-13T13:45:16.309Z info: Parsed 82 vehicle positions from GTFS data
+2025-04-13T13:45:16.586Z info: Marked 81 vehicles as inactive
+2025-04-13T13:45:18.365Z info: Updated/inserted 82 vehicle position records
+2025-04-13T13:45:18.366Z info: Successfully processed 82 vehicle positions
+2025-04-13T13:45:46.099Z info: Fetching data from API...
+2025-04-13T13:45:46.363Z info: Parsed 81 vehicle positions from GTFS data
+2025-04-13T13:45:46.677Z info: Marked 82 vehicles as inactive
+2025-04-13T13:45:48.420Z info: Updated/inserted 81 vehicle position records
+2025-04-13T13:45:48.421Z info: Successfully processed 81 vehicle positions
+2025-04-13T13:46:16.101Z info: Fetching data from API...
+2025-04-13T13:46:16.321Z info: Parsed 82 vehicle positions from GTFS data
+2025-04-13T13:46:16.762Z info: Marked 81 vehicles as inactive
+2025-04-13T13:46:18.438Z info: Updated/inserted 82 vehicle position records
+2025-04-13T13:46:18.438Z info: Successfully processed 82 vehicle positions
+2025-04-13T13:46:46.111Z info: Fetching data from API...
+2025-04-13T13:46:46.666Z info: Parsed 82 vehicle positions from GTFS data
+2025-04-13T13:46:47.011Z info: Marked 82 vehicles as inactive
+2025-04-13T13:46:48.873Z info: Updated/inserted 82 vehicle position records
+2025-04-13T13:46:48.873Z info: Successfully processed 82 vehicle positions
+2025-04-13T13:47:16.116Z info: Fetching data from API...
+2025-04-13T13:47:16.405Z info: Parsed 83 vehicle positions from GTFS data
+2025-04-13T13:47:17.033Z info: Marked 82 vehicles as inactive
+2025-04-13T13:47:19.226Z info: Updated/inserted 83 vehicle position records
+2025-04-13T13:47:19.226Z info: Successfully processed 83 vehicle positions
+2025-04-13T13:47:46.125Z info: Fetching data from API...
+2025-04-13T13:47:46.366Z info: Parsed 83 vehicle positions from GTFS data
+2025-04-13T13:47:46.669Z info: Marked 83 vehicles as inactive
+2025-04-13T13:47:48.619Z info: Updated/inserted 83 vehicle position records
+2025-04-13T13:47:48.620Z info: Successfully processed 83 vehicle positions
+2025-04-13T13:48:16.138Z info: Fetching data from API...
+2025-04-13T13:48:16.515Z info: Parsed 85 vehicle positions from GTFS data
+2025-04-13T13:48:16.792Z info: Marked 83 vehicles as inactive
+2025-04-13T13:48:18.612Z info: Updated/inserted 85 vehicle position records
+2025-04-13T13:48:18.612Z info: Successfully processed 85 vehicle positions
+2025-04-13T13:48:46.139Z info: Fetching data from API...
+2025-04-13T13:48:46.353Z info: Parsed 87 vehicle positions from GTFS data
+2025-04-13T13:48:46.607Z info: Marked 85 vehicles as inactive
+2025-04-13T13:48:48.614Z info: Updated/inserted 87 vehicle position records
+2025-04-13T13:48:48.615Z info: Successfully processed 87 vehicle positions
+2025-04-13T13:49:16.151Z info: Fetching data from API...
+2025-04-13T13:49:16.607Z info: Parsed 90 vehicle positions from GTFS data
+2025-04-13T13:49:16.911Z info: Marked 87 vehicles as inactive
+2025-04-13T13:49:19.095Z info: Updated/inserted 90 vehicle position records
+2025-04-13T13:49:19.095Z info: Successfully processed 90 vehicle positions
+2025-04-13T13:49:46.151Z info: Fetching data from API...
+2025-04-13T13:49:46.717Z info: Parsed 90 vehicle positions from GTFS data
+2025-04-13T13:49:46.968Z info: Marked 90 vehicles as inactive
+2025-04-13T13:49:47.282Z error: Error inserting multiple vehicle positions: null value in column "latitude" of relation "vehicle_positions" violates not-null constraint
+2025-04-13T13:49:47.283Z error: Error fetching or processing data: null value in column "latitude" of relation "vehicle_positions" violates not-null constraint
+2025-04-13T13:49:47.283Z error: Error in scheduled data fetch: null value in column "latitude" of relation "vehicle_positions" violates not-null constraint
+2025-04-13T13:50:16.163Z info: Fetching data from API...
+2025-04-13T13:50:16.543Z info: Parsed 90 vehicle positions from GTFS data
+2025-04-13T13:50:16.806Z info: Marked 0 vehicles as inactive
+2025-04-13T13:50:18.573Z info: Updated/inserted 90 vehicle position records
+2025-04-13T13:50:18.573Z info: Successfully processed 90 vehicle positions
+2025-04-13T13:50:46.167Z info: Fetching data from API...
+2025-04-13T13:50:46.418Z info: Parsed 89 vehicle positions from GTFS data
+2025-04-13T13:50:46.691Z info: Marked 90 vehicles as inactive
+2025-04-13T13:50:48.403Z info: Updated/inserted 89 vehicle position records
+2025-04-13T13:50:48.403Z info: Successfully processed 89 vehicle positions
+2025-04-13T13:51:16.180Z info: Fetching data from API...
+2025-04-13T13:51:16.585Z info: Parsed 89 vehicle positions from GTFS data
+2025-04-13T13:51:17.080Z info: Marked 89 vehicles as inactive
+2025-04-13T13:51:19.049Z info: Updated/inserted 89 vehicle position records
+2025-04-13T13:51:19.049Z info: Successfully processed 89 vehicle positions
+2025-04-13T13:51:45.367Z info: Creating vehicle_positions table if it doesn't exist
+2025-04-13T13:51:45.389Z info: Database initialized successfully
+2025-04-13T13:51:45.390Z info: Fetching data from API...
+2025-04-13T13:51:46.132Z info: Parsed 89 valid vehicle positions from GTFS data
+2025-04-13T13:51:48.129Z info: Updated/inserted 89 vehicle position records
+2025-04-13T13:51:48.247Z info: Marked 0 vehicles as inactive (no longer reporting)
+2025-04-13T13:51:48.247Z info: Successfully processed 89 vehicle positions
+2025-04-13T13:51:48.247Z info: Parser started. Fetching data every 30 seconds
+2025-04-13T13:52:18.257Z info: Fetching data from API...
+2025-04-13T13:52:18.522Z info: Parsed 84 valid vehicle positions from GTFS data
+2025-04-13T13:52:20.517Z info: Updated/inserted 84 vehicle position records
+2025-04-13T13:52:20.692Z info: Marked 5 vehicles as inactive (no longer reporting)
+2025-04-13T13:52:20.693Z info: Successfully processed 84 vehicle positions
+2025-04-13T13:52:48.270Z info: Fetching data from API...
+2025-04-13T13:52:48.502Z info: Parsed 83 valid vehicle positions from GTFS data
+2025-04-13T13:52:50.263Z info: Updated/inserted 83 vehicle position records
+2025-04-13T13:52:50.389Z info: Marked 1 vehicles as inactive (no longer reporting)
+2025-04-13T13:52:50.390Z info: Successfully processed 83 vehicle positions
+2025-04-13T13:53:18.283Z info: Fetching data from API...
+2025-04-13T13:53:18.505Z info: Skipped 1 vehicle entries with missing required data
+2025-04-13T13:53:18.505Z info: Parsed 79 valid vehicle positions from GTFS data
+2025-04-13T13:53:20.817Z info: Updated/inserted 79 vehicle position records
+2025-04-13T13:53:21.030Z info: Marked 4 vehicles as inactive (no longer reporting)
+2025-04-13T13:53:21.031Z info: Successfully processed 79 vehicle positions
+2025-04-13T13:53:48.295Z info: Fetching data from API...
+2025-04-13T13:53:48.702Z info: Parsed 80 valid vehicle positions from GTFS data
+2025-04-13T13:53:50.560Z info: Updated/inserted 80 vehicle position records
+2025-04-13T13:53:50.766Z info: Marked 0 vehicles as inactive (no longer reporting)
+2025-04-13T13:53:50.767Z info: Successfully processed 80 vehicle positions
+2025-04-13T13:54:18.297Z info: Fetching data from API...
+2025-04-13T13:54:18.744Z info: Parsed 80 valid vehicle positions from GTFS data
+2025-04-13T13:54:20.891Z info: Updated/inserted 80 vehicle position records
+2025-04-13T13:54:21.038Z info: Marked 0 vehicles as inactive (no longer reporting)
+2025-04-13T13:54:21.038Z info: Successfully processed 80 vehicle positions
+2025-04-13T13:54:48.303Z info: Fetching data from API...
+2025-04-13T13:54:48.920Z info: Parsed 80 valid vehicle positions from GTFS data
+2025-04-13T13:54:50.914Z info: Updated/inserted 80 vehicle position records
+2025-04-13T13:54:51.063Z info: Marked 0 vehicles as inactive (no longer reporting)
+2025-04-13T13:54:51.063Z info: Successfully processed 80 vehicle positions
