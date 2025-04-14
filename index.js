@@ -26,9 +26,10 @@ async function main() {
     logger.info(
       `Parser started. Fetching data every ${INTERVAL / 1000} seconds`
     );
+
   } catch (error) {
     logger.error("Failed to initialize the application:", error);
-    process.exit(1);
+    process.exit(1); // Exit if initialization fails
   }
 }
 
