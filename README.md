@@ -1,64 +1,98 @@
-# Bus Tracker - GTFS-Realtime Data Parser
+# Bus Tracker
 
-This application fetches real-time vehicle position data from the Malaysian government API in GTFS-Realtime format and stores it in a PostgreSQL database.
+A real-time bus tracking service that fetches and processes data from the Malaysian government's GTFS-realtime API for Rapid Bus and MRT feeder services.
 
-## Setup Instructions
+## Overview
 
-1. Install Node.js dependencies:
-
-   ```
-   npm install
-   ```
-
-2. Configure the environment variables in `.env` file:
-
-   - Set DATABASE_URL for your PostgreSQL database connection
-   - The API URL for GTFS-Realtime data
-
-3. Make sure your PostgreSQL database is running
-
-4. Start the application:
-   ```
-   npm start
-   ```
+This application fetches vehicle position data from the public transit API at regular intervals, parses the GTFS-realtime protocol buffer data, and stores the processed information in a PostgreSQL database. It keeps track of active bus positions, routes, and status information.
 
 ## Features
 
-- Fetches GTFS-Realtime data every 30 seconds
-- Parses binary GTFS (General Transit Feed Specification) real-time data
+- Fetches real-time bus location data every 30 seconds
+- Processes GTFS-realtime protocol buffer data
 - Stores vehicle positions in a PostgreSQL database
-- Includes error handling and logging
+- Tracks which buses are active
+- Handles data validation and error recovery
+- Comprehensive logging
 
-## About GTFS-Realtime
+## Prerequisites
 
-GTFS-Realtime is a feed specification that allows public transportation agencies to provide real-time updates about their fleet. It uses Protocol Buffers (a compact binary format) rather than JSON or XML, which is why specialized parsing is required.
+- Node.js (v14 or higher)
+- PostgreSQL database
+- Internet connection to access the API
 
-## Troubleshooting
+## Installation
 
-If you see errors about parsing JSON, make sure you're handling the API response as binary data and using the GTFS-Realtime bindings to decode it.
+1. Clone the repository:
+
+   ```bash
+   git clone <repository-url>
+   cd bus-tracker-hoster
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Create a `.env` file in the root directory and add your PostgreSQL connection string:
+   ```
+   DATABASE_URL={your postgreSQL info}
+   ```
+
+## Usage
+
+To start the bus tracker service:
+
+```bash
+npm start
+```
+
+The application will:
+
+1. Initialize the database and create the necessary tables if they don't exist
+2. Start fetching data at 30-second intervals
+3. Log operations to both the console and log files
+
+## Project Structure
+
+- `index.js` - Main entry point that initializes the application and schedules periodic data fetching
+- `dataParser.js` - Handles fetching and parsing GTFS data from the API
+- `database.js` - Database connection and query functions
+- `logger.js` - Logging configuration using Winston
+
+## Environment Variables
+
+- `DATABASE_URL` - PostgreSQL connection string (required)
 
 ## Database Schema
 
-The application creates a `vehicle_positions` table with the following structure:
+The application uses a `vehicle_positions` table with the following structure:
 
-```sql
-CREATE TABLE vehicle_positions (
-  id SERIAL PRIMARY KEY,
-  vehicle_id VARCHAR(100),
-  route_id VARCHAR(100),
-  trip_id VARCHAR(100),
-  latitude DOUBLE PRECISION,
-  longitude DOUBLE PRECISION,
-  bearing FLOAT,
-  speed FLOAT,
-  timestamp BIGINT,
-  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-)
-```
+- `id` - Serial primary key
+- `vehicle_id` - Unique identifier for the vehicle
+- `trip_id` - Trip identifier
+- `route_id` - Route identifier
+- `latitude` - Vehicle latitude
+- `longitude` - Vehicle longitude
+- `timestamp` - Time of the position report
+- `congestion` - Traffic congestion level (if available)
+- `stop_id` - ID of the nearest stop (if available)
+- `status` - Vehicle status (e.g., "STOPPED_AT", "IN_TRANSIT_TO")
+- `is_active` - Whether the vehicle is currently active
+- `last_seen` - Timestamp of when the vehicle was last reported
+- `created_at` - Record creation timestamp
+- `updated_at` - Record update timestamp
 
 ## Logs
 
-The application generates logs in:
+The application generates two log files:
 
-- `combined.log` - All logs
-- `error.log` - Error logs only
+- `combined.log` - All log messages
+- `error.log` - Error messages only
+
+## API Source
+
+This project uses data from the Malaysian government's GTFS-realtime API:
+https://api.data.gov.my/gtfs-realtime/vehicle-position/prasarana?category=rapid-bus-mrtfeeder
