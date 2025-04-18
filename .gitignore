@@ -1,3 +1,25 @@
 # Environment variable files
 .env
 .env.*
+
+# Log files
+*.log
+combined.log
+error.log
+
+# Dependency directories
+node_modules/
+
+# Runtime data
+*.pid
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# OS generated files
+.DS_Store
+Thumbs.db
