@@ -181,9 +181,39 @@ async function insertVehiclePositions(vehiclesData) {
   }
 }
 
+// Function to cleanup old data (data from previous days)
+async function cleanupOldData() {
+  const client = await pool.connect();
+  try {
+    logger.info("Starting daily data cleanup");
+
+    // Get today's date at midnight in local timezone
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
+
+    const query = `
+      DELETE FROM vehicle_positions
+      WHERE timestamp < $1
+    `;
+
+    const result = await client.query(query, [today]);
+    logger.info(
+      `Cleaned up ${result.rowCount} vehicle position records from previous days`
+    );
+
+    return result.rowCount;
+  } catch (error) {
+    logger.error("Error cleaning up old data:", error);
+    throw error;
+  } finally {
+    client.release();
+  }
+}
+
 module.exports = {
   pool,
   initDatabase,
   insertVehiclePosition,
   insertVehiclePositions,
+  cleanupOldData,
 };
